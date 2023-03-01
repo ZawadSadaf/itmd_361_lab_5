@@ -1,0 +1,55 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif, cursive;
+  margin: 0;
+  padding: 0;
+  background: url(../images/background.png);
+  color: whitesmoke;
+}
+
+
+#Title {
+  text-align: center;
+  font-size: 3em;
+  padding: 1em;
+}
+
+#planets {
+  
+  margin: 2em auto;
+  width: 80%;
+}
+
+#planets th, #planets td {
+  border: 3px solid rgb(27, 34, 63);
+  padding: 0.5em;
+  text-align: center;
+}
+
+#planets th {
+  background-color: rgb(58, 83, 193);
+}
+
+#planets td {
+  background-color: rgb(58, 83, 193);;
+}
+
+img {
+  width: 270px;
+  height: 300px;
+}
+
+.TitlePlanets {
+  font-size: 1.5em;
+  font-weight: bold;
+  background-color: purple;
+}
+
+.fact {
+  font-weight: bold;
+}
+
+img:hover {
+  border: solid 10px transparent;
+  border-color: green;
+}
+
